@@ -1,8 +1,3 @@
-<!doctype html>
- <?php
-    if (isset($_POST['mot_de_passe']) AND $_POST['mot_de_passe'] ==  "len47book")
-    {
-    ?>
 <html>
     <head>
         <title>App-heros</title>
@@ -76,7 +71,7 @@
 					
 					En faisant de moi votre partenaire privilégié du web, je vous aiderais à comprendre et surtout à maitriser cet outil.		
 					
-					<p id='ctn_move'>Votre entreprise est unique? Montrons leur!!</p>
+					<span id='ctn_move'>Votre entreprise est unique? Montrons leur!!</span>
 					</p>
 				</div>
 			</div>
@@ -718,18 +713,3 @@
     </body>
 </html>
 
-   <?php
-    }
-    else // Sinon, on affiche un message d'erreur
-    {
-	?>
-	    <form action="#" method="post">
-            <p>
-            <input type="password" name="mot_de_passe" />
-            <input type="submit" value="Valider" />
-            </p>
-        </form>
-     <?php
-		
-    }
-    ?>
