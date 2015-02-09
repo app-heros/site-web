@@ -1309,10 +1309,13 @@ body.etapes{
 }
 
 #large-header{
-    background:#e74c3c;
     width:100%;
+    background-image: url(../img/app-heros-back-services.jpg);
+    background-position:50% 50%;
+    position:relative; 
+    background-size: cover; 
 }
-#large-header  h1{
+#large-header h1{
     font-size: 4em;
     color: #fff;
     position: absolute;
@@ -1349,9 +1352,6 @@ body.etapes{
     color: #e74c3c;
     border: 1px solid #e74c3c;
 }
-
-
-
 .etapes p {
     font-size:1.3em;
     color:#4b4b4b;
@@ -1359,7 +1359,7 @@ body.etapes{
 .etapes h2 {
     position:relative;
     line-height:80px;
-    font-family : Dosis;font-size:3em;
+    font-size:3em;
     color:#1abc9c;
     text-align:left;
     margin-bottom:5%;
@@ -1381,7 +1381,7 @@ body.etapes{
     content: "";
     display: block;
     position: absolute;
-    left: -25px;
+    left: -46px;
     top: 40px;
     width: 10px;
     height: 10px;
@@ -1389,7 +1389,15 @@ body.etapes{
     background: none repeat scroll 0% 0% #FFF;
     border-radius: 50%;
 }
-
+.etapes .indicleft {
+    position: absolute;
+    left: -35%;
+    top: 30%;
+    font-size:4em;
+    color:#1abc9c;
+    font-family: 'Indie Flower';
+   transform : rotateZ(-28deg);
+  }
 .etapes #ctnlesetapes{
     position:relative;
     width:50%;
@@ -1567,7 +1575,10 @@ body.services{
 }
 
 .services #large-header{
-    background:#1abc9c;
+    background-image: url(../img/app-heros-back-etapes.jpg);
+    background-position:50% 50%;
+    position:relative; 
+    background-size: cover; 
     width:100%;
 }
 .services #large-header  h1{
