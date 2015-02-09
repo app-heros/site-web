@@ -763,3 +763,23 @@ body.services{font-family:'Open Sans';overflow-x:hidden;}
 #lesservices .ctngarantiesright{float:right;width:70%;}
 #lesservices .ctngarantiesleft{float:left;width:70%;}
 
+.links .link{
+   display: block;
+   float: left;
+   width: 30%;
+   margin: 10px 1.5%;
+   -moz-box-shadow: #ffffff 0px 0px 1px inset;
+   -webkit-box-shadow: #ffffff 0px 0px 1px inset;
+   box-shadow: #ffffff 0px 0px 1px inset;
+}
+.links .big{
+   height: auto;
+   width: 63%;
+}
+.links .link a{
+   display: block;
+   padding: 10px 10px;
+   height: 97.5px;
+   color: #ffffff;
+   
+}
