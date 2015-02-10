@@ -238,26 +238,72 @@ h3{ font-family: 'Open Sans', sans-serif;
     background-position:center bottom;
     background-size: cover;
 }
+#section0 h1{
+    font-weight: 400;
+    text-align:center;
+    color:#414141;
+    font-size:8em;
+}
+#section0 #ctn_logo{
+    width:100%;
+    height:55%;
+}
+#section0 #logo{
+    margin:auto;
+    display:block;
+}
+#section0 h2{
+    font-family:'Dosis';
+    font-weight: 700;
+    text-align:center;
+    color:#000000;
+    font-size:3em;
+    vertical-align:middle;
+    height: 15%;
+    margin-bottom: 50px!important
+}
 
+#ctnestce{
+    position:absolute;   
+    top:150px;
+    left:50px;
+    padding:2em;
+    //background: url(../img/texture-wood.jpg) 0 no-repeat;
+    background :#414141;    
+}
+#section0 .estce{
+    font-family:'Indie Flower', cursive;
+    font-size:4em;
+    color:#ffffff;
+}
 #section0 .paragraph:after{
-    content: "";
-    
+    content: "";    
     display: bloc;
     clear: both;
 }
-
+#section0 .paragraphs{
+    position: absolute;
+    bottom: 0px;
+}
+#section0 .paragraphs:after{
+    content: "";
+    display: block;
+    clear: both;
+}
 #section0 .paragraph{
     float: left;
     width: 25%;
-    margin: 40px 4.16%;
+    padding: 40px 4.16%;
     position: relative;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(255,255,255,0.2);
     height: 275px;
+    display: in
 }
 
 #section0 .paragraph h2{ 
     text-transform: uppercase;
     border: 1px solid #ffffff;
+    margin-bottom: 20px!important;
 }
 
 #section0 .paragraph h2 strong{
@@ -269,6 +315,32 @@ h3{ font-family: 'Open Sans', sans-serif;
     font-family: Open Sans, sans-serif;
     font-weight: 400;
     font-size: 1em;
+}
+
+#section0 .title{
+    background-color: transparent;
+}
+#section0 .title h2{
+    margin: 0!important;
+    color: rgba(0,0,0,0.9);
+    border: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%!important;
+    display: block;
+    width: 100%;
+}
+#section0 .title h2 strong{
+    height: 50%;
+    display: block;
+    line-height: 178px;
+}
+#section0 .title h2 strong:nth-child(1){
+    background-color: rgba(255,255,255,0.4);
+}
+#section0 .title h2 strong:nth-child(2){
+    background-color: rgba(255,255,255,0.3);
 }
 .enter_bottom{
     width: 100%;
@@ -295,43 +367,6 @@ h3{ font-family: 'Open Sans', sans-serif;
     color: #333333!important;
     display: inline-block;
     vertical-align: middle;
-}
-#section0 h1{
-    font-weight: 400;
-    text-align:center;
-    color:#414141;
-    font-size:8em;
-}
-#section0 #ctn_logo{
-    width:100%;
-    height:55%;
-}
-#section0 #logo{
-    margin:auto;
-    display:block;
-}
-#section0 h2{
-    font-family:'Dosis';
-    font-weight: 700;
-    text-align:center;
-    color:#fff;
-    font-size:3em;
-    vertical-align:middle;
-    height: 15%;
-}
-
-#ctnestce{
-    position:absolute;   
-    top:150px;
-    left:50px;
-    padding:2em;
-    //background: url(../img/texture-wood.jpg) 0 no-repeat;
-    background :#414141;    
-}
-#section0 .estce{
-    font-family:'Indie Flower', cursive;
-    font-size:4em;
-    color:#ffffff;
 }
 
 #section1{}
@@ -1676,14 +1711,17 @@ body.services{
     float:left;
     width:70%;
 }
+#section0 .links{
+    background-color: transparent;
+}
 .links .link{
    display: block;       
    float: left;   
    width: 30%;   
    margin: 10px 1.5%;   
-   -moz-box-shadow: #ffffff 0px 0px 1px inset;   
-   -webkit-box-shadow: #ffffff 0px 0px 1px inset;  
-   box-shadow: #ffffff 0px 0px 1px inset;
+   -moz-box-shadow: #ffffff 0px 0px 2px inset;   
+   -webkit-box-shadow: #ffffff 0px 0px 2px inset;  
+   box-shadow: #ffffff 0px 0px 2px inset;
    
 }
 .links .big{
