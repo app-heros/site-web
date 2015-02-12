@@ -1,0 +1,227 @@
+﻿<!doctype html>
+<html>
+    <head>
+        <title>App-heros - Etapes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+		
+		<link href='http://fonts.googleapis.com/css?family=Dosis:300,400,600,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,700,400,600' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic|Josefin+Sans:300,400,700,300italic,400italic,700italic|Anton' rel='stylesheet' type='text/css'>
+                <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+                
+		<link rel="stylesheet" type="text/css" href="css/apphero.css">
+
+		
+	</head>
+
+	<body class='etapes'>	
+	<div id='ctnbarmenu'>
+		<div class='bar'></div>
+	</div>
+	<div class="container">		
+		
+        <div id="large-header" class="large-header">
+
+            <canvas id="demo-canvas"></canvas>
+            <h1><span>Les étapes de votre projet chez App-heros</span></h1>	
+
+            <p id='explain'><span>Parce que rien ne doit être fait au hasard, 
+            voici un petit descriptif du déroulement de votre projet chez moi.
+            Vous intervenez à tout moment, vous avez un regard sur tout.<br/>
+            Prêts?</span></p>
+
+            <div id='ctngbe'><button id="ghost-btn-etapes">YES SIR!</button></div>
+            <div id='ctnlogoah'></div>
+        </div>
+		
+        <div id='ctnlesetapes'>
+            <div id='etapes1' class='lesetapes' data-sr="enter bottom and move 50px over 1s">
+             <p class='indicleft'>Définir<br/>&<br/>Réfléchir</p>
+            <h2><span class='chiffre'>01</span> La rencontre</h2>
+                <div class='ctntext'>
+                <p>Indispensable, la rencontre nous permettras de bien cerner votre projet 
+                et de relever les éventuels problèmes que nous pourrions rencontrer en cours de développement.<br/>
+                Nous pourrons également vérifier que vous avez bien compris votre projet, et que
+                vous savez ce que vous souhaitez obtenir.<br/>
+                Dans le cas contraire, nous y réfléchirons ensemble.</p>
+                </div>
+
+                <div id='ctnpersorencontre' data-sr="wait 0.5s enter bottom and move 50px over 1s">
+                        <img src='img/app-heros-perso-mmoi.png' />
+                        <img src='img/app-heros-perso-entreprise.png' />	
+                </div>
+                <div class='clear'></div>
+            </div>
+
+            <div id='etapes2' class='lesetapes' data-sr="enter bottom and move 50px over 1s">
+            <p class='indicleft'>Créativité<br/>&<br/>Expression</p>
+            <h2><span class='chiffre'>02</span>Le design</h2>
+
+                <div id='ctnimggraphique'>
+                    <img src='img/app-heros-logos-partie-graphique.png' />
+                </div>
+
+                <div class='ctntext'>
+                    <p>Le design de votre site doit refléter au mieux ce que vous êtes et ce que vous faites.<br/>
+                    Le web change constamment, et dans un soucis d'exigence je suis à l'écoute des dernières tendances graphiques 
+                    pour permettre à votre site de sortir de l'ordinaire et d'attirer vos clients.<br>
+                    Nous travaillerons ensemble, vous avez votre regard critique et moi avec mon savoir-faire, 
+                    pour atteindre tous nos objectifs.</p>
+                
+                </div>
+                <div class='clear'></div>
+            </div>
+
+            <div id='etapes3' class='lesetapes' data-sr="enter bottom and move 50px over 1s">
+                 <p class='indicleft'>Sécurisé<br/>&<br/>Administrable</p>
+                <h2><span class='chiffre'>03</span>Intégration / développement</h2>
+
+                <div class="slideshow" id="slideshow">
+                    <div class="slides">
+                        <div id="tech" class="tiltview">
+                            <img id='repere' src='img/app-heros-etape-dev-form-connexion.jpg' />
+                        </div>
+                        <div id="admin" class="tiltview">
+                            <img  src='img/app-heros-etape-dev-partie-visible.jpg' />
+                        </div>
+                        <div id="inte" class="tiltview">
+                            <img src='img/app-heros-etape-dev-form-connexion.jpg' />
+                        </div>
+                        <div id="visible" class="tiltview">
+                            <img src='img/app-heros-etape-dev-partie-visible.jpg' />
+                        </div>
+                     </div>
+                </div>
+
+                <div id='explainDev'>
+                    <h3>Partie visible : Interface utilisateur</h3>
+
+                    <div id="techdev" class="tiltviewDev">
+                        <img class='active' src='img/app-heros-etape-dev-form-connexion.jpg' />
+                        <p>La charte graphique intégrée.</p>
+                    </div>
+
+                </div>
+
+                <div class='clear'></div>
+
+            </div>
+            <div id='etapes4' class='lesetapes'>
+                <p class='indicleft'>Visibilité<br/>&<br/>Publicité</p>
+                <h2><span class='chiffre'>04</span>Référencement/Mise en ligne</h2>
+                <div class='ctntext'>
+                    <p>Dès que nous serons satisfaits par l'aspect final et le fonctionnement global de votre site,
+                    je procéderais à sa mise en ligne, ainsi qu'à son référencement naturel sur les moteurs de recherches.</p>
+                </div>
+                <div class='clear'></div>
+            </div>
+            <div id='etapes5' class='lesetapes'>
+                <p class='indicleft'>Liberté<br/>&<br/>Finalisation</p>
+                <h2><span class='chiffre'>05</span>Remise du projet</h2>
+                <div class='ctntext'>
+                    <p>Pour finir, je vous remettrais tous les fichiers de votre site, ainsi qu'un accès complet
+                    à celui-ci ou, si vous me confiez son hébergement, un accès plus restreint qui vous permettras de mettre entièrement à jour
+                    votre site tout en réduisant les risques de modifier les parties techniques et sensible  
+                    qui risquerais de l'endommager.
+                    </p>
+                </div>
+                <div class='clear'></div>
+            </div>
+
+            <div id='etapes6' class='lesetapes'>
+                <h2><span class='chiffre'>06</span>Accompagnement</h2>
+                <div class='ctntext'>
+                    <p>Lorsque vous récupérez votre site, vous n'êtes pas seul pour autant.<br/>
+                    Je reste disponible pour d'éventuels aménagement et nous suivrons ensemble
+                    l'audience de votre site internet et les ventes de vos produits afin d'améliorer vos visites et vos chance de séduire vos acheteurs. </p>
+                </div>
+                <div class='clear'></div>
+            </div>
+
+        </div>
+			
+	</div>	
+	<div class="overlay overlay-hugeinc">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Acceuil</a></li>
+                    <li><a href="etapes.html">Déroulement d 'un projet</a></li>
+                    <li><a href="services.html">Sevices inclus</a></li>
+                    <li><span id='contactmenu'>Contact</span></li>
+                </ul>
+            </nav>
+	</div>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/smothScroll.js"></script>
+		<script type="text/javascript" src="js/reveal.js"></script>
+
+		<script src="js/header/TweenLite.min.js"></script>
+		<script src="js/header/EasePack.min.js"></script>
+		<script src="js/header/rAF.js"></script>
+		<script src="js/header/demo-1.js"></script>
+
+		<script>
+			window.sr = new scrollReveal();
+			function redimOne(){
+				var lf = $(window).width();
+				var hf = $(window).height();
+				$('#large-header').css({ width : lf, height : hf,});
+				$('.tiltview img').css({ width : hf / 2});
+				$('.tiltview').css({ left : (lf - ($('#repere').width() ))/2 });	
+						
+				
+				$('.tiltviewDev').css({ left : (lf - (lf - $('#repere').width() )) });	
+				$('.tiltviewDev img').css({ width : hf / 1.4});	
+			
+			}
+			$(document).ready(function() {
+				$(function () {
+					redimOne();
+					$.srSmoothscroll({
+						step: 100,
+						speed: 300,
+						ease: 'easeOutQuad'
+					});
+				});
+				$('.tiltview img').click(function(){
+					$('#explainDev').addClass('active');
+					
+				
+				});
+				
+				$("#ghost-btn-etapes").click(function() {
+					$('html, body').animate({
+						scrollTop: $("#etapes1").offset().top
+					}, 1200);
+				});
+				$('#ctnbarmenu').click(function(){
+					if ($('#ctnbarmenu').hasClass('close')){
+							$('.overlay-hugeinc').removeClass('open');
+						$('#ctnbarmenu').removeClass('close');
+					}else{
+					$('.overlay-hugeinc').addClass('open');
+						$('#ctnbarmenu').addClass('close');
+					
+					}
+				})
+			});
+		
+				$("#ghost-btn").click(function() {
+					$('html, body').animate({
+						scrollTop: $("#section1").offset().top
+					}, 1200);
+				});
+				
+				$(".menu-side a").click(function(event) {
+				 event.preventDefault();
+					var res = ($(this).attr('class')).split('_');
+					$('html, body').animate({
+						scrollTop: $("#"+res[1]).offset().top
+					}, 1200);
+				});
+				
+		</script>
+	</body>
+</html>
