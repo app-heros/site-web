@@ -238,26 +238,74 @@ h3{ font-family: 'Open Sans', sans-serif;
     background-position:center bottom;
     background-size: cover;
 }
+#section0 h1{
+    font-weight: 400;
+    text-align:center;
+    color:#414141;
+    font-size:8em;
+}
+#section0 #ctn_logo{
+    width:100%;
+    height:55%;
+}
+#section0 #logo{
+    margin:auto;
+    display:block;
+}
+#section0 h2{
+    font-family:'Dosis';
+    font-weight: 700;
+    text-align:center;
+    color:#000000;
+    font-size:3em;
+    vertical-align:middle;
+    height: 15%;
+    margin-bottom: 50px!important
+}
 
+#ctnestce{
+    position:absolute;   
+    top:150px;
+    left:50px;
+    padding:2em;
+    //background: url(../img/texture-wood.jpg) 0 no-repeat;
+    background :#414141;    
+}
+#section0 .estce{
+    font-family:'Indie Flower', cursive;
+    font-size:4em;
+    color:#ffffff;
+}
 #section0 .paragraph:after{
-    content: "";
-    
+    content: "";    
     display: bloc;
     clear: both;
 }
-
+#section0 .paragraphs{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 350px;
+}
+#section0 .paragraphs:after{
+    content: "";
+    display: block;
+    clear: both;
+}
 #section0 .paragraph{
     float: left;
     width: 25%;
-    margin: 40px 4.16%;
+    padding: 40px 4%;
     position: relative;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.5);
     height: 275px;
+    display: in
 }
 
 #section0 .paragraph h2{ 
     text-transform: uppercase;
     border: 1px solid #ffffff;
+    margin-bottom: 20px!important;
 }
 
 #section0 .paragraph h2 strong{
@@ -269,6 +317,32 @@ h3{ font-family: 'Open Sans', sans-serif;
     font-family: Open Sans, sans-serif;
     font-weight: 400;
     font-size: 1em;
+}
+
+#section0 .title{
+    background-color: transparent;
+}
+#section0 .title h2{
+    margin: 0!important;
+    color: rgba(0,0,0,0.9);
+    border: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%!important;
+    display: block;
+    width: 100%;
+}
+#section0 .title h2 strong{
+    height: 50%;
+    display: block;
+    line-height: 178px;
+}
+#section0 .title h2 strong:nth-child(1){
+    background-color: rgba(0,0,0,0.4);
+}
+#section0 .title h2 strong:nth-child(2){
+    background-color: rgba(0,0,0,0.3);
 }
 .enter_bottom{
     width: 100%;
@@ -296,43 +370,6 @@ h3{ font-family: 'Open Sans', sans-serif;
     display: inline-block;
     vertical-align: middle;
 }
-#section0 h1{
-    font-weight: 400;
-    text-align:center;
-    color:#414141;
-    font-size:8em;
-}
-#section0 #ctn_logo{
-    width:100%;
-    height:55%;
-}
-#section0 #logo{
-    margin:auto;
-    display:block;
-}
-#section0 h2{
-    font-family:'Dosis';
-    font-weight: 700;
-    text-align:center;
-    color:#fff;
-    font-size:3em;
-    vertical-align:middle;
-    height: 15%;
-}
-
-#ctnestce{
-    position:absolute;   
-    top:150px;
-    left:50px;
-    padding:2em;
-    //background: url(../img/texture-wood.jpg) 0 no-repeat;
-    background :#414141;    
-}
-#section0 .estce{
-    font-family:'Indie Flower', cursive;
-    font-size:4em;
-    color:#ffffff;
-}
 
 #section1{}
 #section1 h2 {
@@ -341,7 +378,7 @@ h3{ font-family: 'Open Sans', sans-serif;
     text-align:center;
 }
 #section1 #slideparalax2{
-    background: url(../img/app-heros-mockup-ssmockup.jpg) center 0 no-repeat fixed;    
+    background: url(../img/app-heros-mockup-vbleu.jpg) center 0 no-repeat fixed;    
 }
 
 
@@ -631,46 +668,396 @@ h3{ font-family: 'Open Sans', sans-serif;
 }
 #section3{
     background:#ffffff;
-    padding-bottom:10px;
+    padding-bottom:50px;
 }
-
-#sectionserviceadd{
+#section3 #dashboard_web{
+    width:80%;
     margin:auto;
+    perspective: 3300px;
+    position: relative;
+}
+#section3 #dashboard_web p, #section3 #dashboard_web span{
+    font-family:'Dosis';
+    font-weight: 200;
+}
+#dashboard_web .loscols{
+    width:32%;
+    float:left;
+    min-width:360px;
+    position: relative;
+}
+#dashboard_web  #col2 ,#dashboard_web  #col1 {
+    margin-right:2%;
+}
+#dashboard_web  #col3 {
+    background-color:#2c3e50;
+}
+#dashboard_web .l1{
+    margin-bottom:5%;
+}
+#content_titredash{
+    width:80%;
+    font-weight: 100;
+    text-align:left;
+    margin:auto;
+    margin-bottom:12px;
+    z-index: 7000;
+    position: relative;
+}
+#content_titredash h2{
+    transition : all .3s ease;
+    font-weight: 100;
+    font-size:1.5em;
+    color:#4b4b4b;
+    text-align:left;
+    display:inline;
+    margin-right:1%;
+    cursor:pointer;
+}
+#content_titredash h2.active{
+    font-size:3em;
+    color:#00a2ff;
+}
+
+.recto,.verso{    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width:100%;
+    height:100%;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
     text-align:center;
-    background:#414141;
-    padding-bottom: 50px;
-}
-#sectionserviceadd .ctntextimgadd{
-    display: inline-block;
-    width: 200px;
-    margin-top: 50px;
 }
 
-#sectionserviceadd .ctntextimgadd .textaddimg{
-   font-family: 'Josefin Sans', sans-serif!important; 
+
+.slideTextLeft div:nth-child(2){
+    left:100%;
 }
-    
-#sectionserviceadd .ctnaddimg{
-    display:inline-block;
-    width: 150px;
-    height : 150px;
-    line-height: 150px;
-    background :#333333;
-    margin-top:20px;
-   transition:all .3s linear;
+.slideTextLeft:hover div{
+    transform: translateX(-100%);
+} 
+.slideTextUp div:nth-child(2){
+    top:100%;
+}
+.slideTextUp:hover div{
+    transform: translateY(-100%);
+} 
+.slideTextDown div:nth-child(2){
+    top:-100%;
+}
+.slideTextDown:hover div{
+    transform: translateY(100%);
+}
+
+
+.rotate3d{
+    perspective: 600px;
+    overflow: visible;
+}
+.rotate3d .containFrontBack{
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    position: absolute;
+    width : 100%;
+    height:100%;
+    transition : all .5s ease}
+
+.containFrontBack div{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.rotate3dX  .front{
+    background-color:#00a2ff;
+}
+
+.rotate3dX  .back{
+    transform: rotateX( 180deg );
+    background-color:#00a2ff;
+}
+.rotate3dX:hover .containFrontBack:hover{
+    transform: rotateX( 180deg );
+}
+
+.rotate3dY  .front{
+    background-color:#3498db;
+}
+
+.rotate3dY  .back{
+    transform: rotateY( 180deg );
+    background-color:#3498db;
+}
+.rotate3dY:hover .containFrontBack:hover{
+    transform: rotateY( 180deg );
+}
  
+ 
+ 
+.titre{
+    text-align:left;
+    font-size:3em;
+    width:85%;
+    margin-top:13px;
 }
-#sectionserviceadd .ctnaddimg:hover{ 
-    background :#1abc9c;
-    border-radius: 180px;
+.titreroll{
+    text-align:center;
+    font-size:3em;
+    font-family:'Dosis';
+    font-weight: 100;
+    margin-top:-10px;
+}
+.titre  span{
+    font-size:0.5em;
+    display:block;
+    margin-top:30px;
+}
+.big {
+    height:200px;
+    position: relative;
+    overflow:hidden;
+    cursor:pointer;
+}
+.bigx2{
+    overflow: hidden;
+    height: 100%;
+    background-color:#2c3e50;
+}
+.small{
+    width:47%;
+    height:200px;
+    float:left;
+    position: relative;
+    cursor:pointer;
+}
+.small2{
+    float:right;
+}
+.green{
+    background-color:#1abc9c;
+}
+.yellow{
+    background-color:#f39c12
+}
+.purple{
+    background-color:#8e44ad;
+}
+.clear_blue{
+    background-color:#00a2ff
+}
 
+.logoecomrecto{
+    text-align: left;
+    float: left;
+    width: 70px;
+    height:100%;
+    margin-top:15px;
+    margin-left:13px
+}
+.logoecomverso{
+    margin-top:15px;
+}
+.logoecomrecto img{
+    width: 50px;
+}
+.logoereseau{
+    margin-top:40px;
 }
 
-#sectionserviceadd .ctnaddimg img{
-    max-width: 80%;
-    max-height: 70%;
-    vertical-align: middle;
+.pfront.reseau{
+    margin-top: 20px;
 }
+.backreseautitre{
+    font-size:3em;
+    margin-top:65px;
+}
+
+
+.bx-wrapper .bx-pager.bx-default-pager a {    
+	background-image: url(../img/app-heros-btn-slide-site-web.png);    
+	background-position : left top;
+	display: block;	
+	width: 15px;	
+	height: 15px;
+	font-size:0px;
+	
+	
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {    
+	background-position:left bottom;	
+}
+
+#section3 #content_dash{
+    width: 100%;height: 100%;
+    position: fixed;
+    z-index: 9000;
+    margin: auto;
+    display:none;
+    transition: all .3s ease;
+    top:0;
+}
+#section3 #content_dash .lescontent{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    top:0;
+    left:100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#section3 h2.page-title{
+    margin-bottom:5%;
+    color:#ffffff;
+    font-size:3em;
+}
+#section3 #content_dash .page-content{
+    position:relative;
+    height:100%;
+}
+#section3 #content_dash p{
+    font-weight: 300;
+    font-size:1.6em;
+}
+
+#section3 #content_dash .close-button p {
+    font-size: 3em;
+    color: #4b4b4b;
+}
+#section3 #content_dash .close-button {
+    cursor:pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.garantiesappheros{
+    width:100%;
+    bottom:0px;
+    text-align:center;
+    margin-top:4%;
+}
+.garantiesappheros h3{
+    color:#ffffff;
+    text-align:center;
+    font-size:2em;
+    width: 30%;
+    margin: auto;
+}
+.garantiesappheros .blockgaranties{
+    display: inline-block;
+    margin:2%;
+    text-align: center;
+    margin-top: 1%;
+}
+.garantiesappheros .blockgaranties:hover{
+    background:#34495e;
+    transition : all .3s ease;
+}
+.garantiesappheros .blockgaranties p{
+    font-size:1.4em;
+    font-weight:400;
+}
+
+#section3  .lescontent .explainleft {
+    padding-top: 20px;
+    width: 80%;     
+    margin: auto;
+    text-align:justify;
+}
+
+#section3  .lescontent .explainright {
+    position:relative;
+    width: 100%;
+    margin: auto;
+    text-align:justify;
+    margin-top:4%;
+}
+
+#section3  .lescontent .explainright .ctexpright{
+    padding : 10px 10%;
+}
+
+/********************* Content ecomm *********************/
+.content_ecomm{
+    background-color:#1abc9c;
+    display:none;
+}
+.content_ecomm .explainright{
+    background-color:#34495e
+}
+
+/********************* Content blog *********************/
+.content_blog{
+    background-color:#8e44ad;
+    display:none;
+}
+.content_blog .explainright{
+    background-color:#34495e;
+}
+.content_blog .explainright p{
+    color:#ffffff;
+}
+
+/********************* Content services *********************/
+.content_contenuservice{
+    background-color:#34495e;
+    display:none;
+}
+
+/********************* Content vitrine *********************/
+.content_vitrine{
+    background-color:#f39c12;
+    display:none;
+}
+.content_vitrine p,.content_vitrine  h2,.content_vitrine  h3{
+    color:#fff;
+}
+.content_vitrine .explainright{
+    background-color:#34495e;
+}
+.content_vitrine .explainright p{
+    color:#ffffff;
+}
+
+/********************* Content reseaux *********************/
+.content_reseaux{
+    background-color:#3498db;
+    display:none;
+}
+
+.contentpourcent{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.centpourcent{
+    font-weight: 600 !important;
+    font-size: 3em;
+    display:block;
+    margin-left: -28%;
+}
+.letextepourcent{
+    display:block;
+    font-size: 2em;
+}
+
 
 #section4{
     margin:auto;
@@ -1041,13 +1428,12 @@ body.etapes{
 }
 .etapes .indicleft {
     position: absolute;
-    left: -39%;
+    left: -35%;
     top: 30%;
     font-size:4em;
     color:#1abc9c;
     font-family: 'Indie Flower';
-    text-align: center;
-   
+   transform : rotateZ(-28deg);
   }
 .etapes #ctnlesetapes{
     position:relative;
@@ -1283,7 +1669,6 @@ body.services{
     color:#1abc9c;
     text-align:left;
     margin-bottom:5%;
-    margin : 0px !important;
 }
 #lesservices .blockgaranties {
     width:60%;
@@ -1292,23 +1677,6 @@ body.services{
     margin: auto;
     padding-top : 5%;
     padding-bottom:5%;
-}
-#lesservices  #blockformation{
-    background: url(../img/IMG_5803.jpg) center 0 no-repeat;
-    background-size:cover;
-    height:700px;
-    width:100%;
-    padding-left:20%;
-    padding-right:20%;
-    margin: auto;
-    padding-top : 5%;
-    padding-bottom:5%;
-}
-#lesservices  #blockformation h2{
-    text-align:center;
-}
-#lesservices  #blockformation p{
-   color:#fff; 
 }
 #lesservices .blockgaranties.light{
     background:#fff;
@@ -1330,52 +1698,52 @@ body.services{
 
 #lesservices .blockgaranties .imgleft{
     float:left;
-    max-width:50%;
+    max-width:20%;
 }
 #lesservices .blockgaranties .imgright{
     float:right;
-    max-width:50%;
+    max-width:20%;
 }
 
 #lesservices .ctngarantiesright{
-    float:left;
-    width:45%;
-    margin-left: 5%;
+    float:right;
+    width:70%;
 }
 #lesservices .ctngarantiesleft{
     float:left;
     width:70%;
 }
-#lesservices #ctncommpetence{
-    
-    
-}
-#lesservices .rondCompetence{
-width: 150px;
-height: 150px;
-background: #414141;
-float: left;
-margin-right: 10px;
-border-radius: 50%;
-line-height: 150px;
-text-align: center;
-font-size: 2em;
-color: #fff;
-font-family: 'Dosis';
+#section0 .links{
+    background-color: transparent;
+    width: 34%;
+    padding: 0;
 }
 .links .link{
    display: block;       
-   float: left;   
-   width: 30%;   
-   margin: 10px 1.5%;   
-   -moz-box-shadow: #ffffff 0px 0px 1px inset;   
-   -webkit-box-shadow: #ffffff 0px 0px 1px inset;  
-   box-shadow: #ffffff 0px 0px 1px inset;
-   
+   float: left;  
+   height: 175px;
+   line-height: 175px;   
+   text-align: center;
+   width: 33.33%;
+   background-color: rgba(0,0,0,0.2);   
 }
-.links .big{
-   height: auto;     
-   width: 63%;   
+.links .link:nth-child(1){    
+   background-color: rgba(0,0,0,0.4); 
+}
+.links .link:nth-child(2){    
+   background-color: rgba(0,0,0,0.6); 
+}
+.links .link:nth-child(3){
+   background-color: rgba(0,0,0,0.7);     
+}
+.links .link:nth-child(4){
+   background-color: rgba(0,0,0,0.5);     
+}
+.links .link:nth-child(5){
+   background-color: rgba(0,0,0,0.6);     
+}
+.links .big{   
+   width: 66.666%;   
 }
 .links .link a{
    display: block;       
