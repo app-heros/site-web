@@ -631,14 +631,14 @@ h3{ font-family: 'Open Sans', sans-serif;
 }
 #section3{
     background:#ffffff;
-    padding-bottom:50px;
+    padding-bottom:10px;
 }
 
 #sectionserviceadd{
     margin:auto;
     text-align:center;
     background:#414141;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 #sectionserviceadd .ctntextimgadd{
     display: inline-block;
@@ -657,8 +657,15 @@ h3{ font-family: 'Open Sans', sans-serif;
     line-height: 150px;
     background :#333333;
     margin-top:20px;
+   transition:all .3s linear;
  
 }
+#sectionserviceadd .ctnaddimg:hover{ 
+    background :#1abc9c;
+    border-radius: 180px;
+
+}
+
 #sectionserviceadd .ctnaddimg img{
     max-width: 80%;
     max-height: 70%;
