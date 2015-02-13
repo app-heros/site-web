@@ -297,7 +297,7 @@ h3{ font-family: 'Open Sans', sans-serif;
     width: 25%;
     padding: 40px 4%;
     position: relative;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(93,214,150,0.1);
     height: 275px;
     display: in
 }
@@ -339,10 +339,10 @@ h3{ font-family: 'Open Sans', sans-serif;
     line-height: 178px;
 }
 #section0 .title h2 strong:nth-child(1){
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(206,98,19,0.1);
 }
 #section0 .title h2 strong:nth-child(2){
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(166,59,162,0.15);
 }
 .enter_bottom{
     width: 100%;
@@ -1725,22 +1725,22 @@ body.services{
    line-height: 175px;   
    text-align: center;
    width: 33.33%;
-   background-color: rgba(0,0,0,0.2);   
+   background-color: rgba(234,255,0,0.2);   
 }
 .links .link:nth-child(1){    
-   background-color: rgba(0,0,0,0.4); 
+   background-color: rgba(0,168,255,0.1); 
 }
 .links .link:nth-child(2){    
-   background-color: rgba(0,0,0,0.6); 
+   background-color: rgba(252,59,105,0.2); 
 }
 .links .link:nth-child(3){
-   background-color: rgba(0,0,0,0.7);     
+   background-color: rgba(72,197,90,0.15);     
 }
 .links .link:nth-child(4){
-   background-color: rgba(0,0,0,0.5);     
+   background-color: rgba(249,175,45,0.25);     
 }
 .links .link:nth-child(5){
-   background-color: rgba(0,0,0,0.6);     
+   background-color: rgba(79,208,197,0.5);     
 }
 .links .big{   
    width: 66.666%;   
