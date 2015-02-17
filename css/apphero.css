@@ -25,10 +25,10 @@ body {
       overflow:auto;
 }
 
-p,a{ font-family: 'Open Sans', sans-serif;
-	 font-weight: 400;
-	 font-size:1.3em;
-	 color:#ffffff;
+p,a,span,label,input{ font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size:1.1em;
+    color:#ffffff;
 }
 
 h1{ font-family: 'Anton', sans-serif!important;
@@ -540,7 +540,15 @@ h3{ font-family: 'Open Sans', sans-serif;
 #section4  #ctnphotocontact{
      background: url(../img/app-heros-rencontre-cafe.jpg) center 0 no-repeat;
      height:400px;
+     background-position: 50% 60%;
     
+}
+#section4 #ctnphotocontact h2{
+    font-size:3em;
+    font-weight:600;
+    padding: 1em 0em;
+    margin:0px !important;
+  
 }
 #section4  #ctnphotocontact h3{
     padding-top:5%;
@@ -549,13 +557,9 @@ h3{ font-family: 'Open Sans', sans-serif;
     font-style:italic;
     text-align:center;
     font-size:1.5em;
+   
 }
-#section4 #ctnphotocontact h2{
-    font-size:3em;
-    font-weight:600;
-    padding: 1em 0em;
-    margin:0px !important;
-}
+
 #section4 #ctnphotocontact p{
     font-size:1.7em;
     font-weight:300;
@@ -569,130 +573,144 @@ h3{ font-family: 'Open Sans', sans-serif;
 
 #section4 #ctncontact {
     position: relative;
-    width: 55%;
-    margin-left : 5%;
-    height: 560px;
-    border-left : 1px solid #16a085;
-    border-right : 1px solid #16a085;
-    float:left;
+    width: 70%;
+    padding : 0% 5%;
+    margin:auto;
+    padding-top:20px;
     
 }
+
 #section4 #ctncontact h2{
     font-size:2em;
     font-weight:600;
     padding: 0.5em 0em;
     margin:0px !important;
-    background: #16a085;
-    color : #fff;
-}
-#section4 #contactcoordonee{
-    width:30%;
-    float:left;
-    margin-left: 5%;
-     height :400px;
-     background : #2980b9;
-}
-
-#section4 #contactcoordonee h2,#section4 #contactcoordonee p{
-    color:#fff;
-}
-span.ctnInput {
-    width: 29%;
-    float: left;
-    position: relative;
-    margin-left:2%;
-    margin-right:2%;
-    margin-top: 50px;
-}
-span.ctnTexta {
-    width: 95%;
-   float: left;
-   position: relative;
-   margin-left: 2%;
-   margin-right: 10%;
-   margin-top: 50px;
-}
-span.icon-arrow-right2{
-    font-size:3em;
-    color: #16a085;
-    float: right;
-    margin-top: 1em;
-    margin-right: 1em;
-    opacity:0.7;
-}
-
-
-span.icon-arrow-right2:hover{
-    cursor:pointer;
-    opacity:1;
-}
-
-#contact  input,#contact  textarea{
-    background: transparent;
-    border: none;
-    color: #16a085;
-    font-size:1.6em;
-    width: 100%;
-    -webkit-appearance: none;
-    position: relative;
-    display: block;
-    width: 100%;
-    float: right;
-    padding: 1.7em 0px;
-    resize: none;
-}
-#contact  #submitcontact{
-    background: #16a085;
-    color:#fff;
-    width:20%;
-    float:none;
-    margin: auto;
-    padding:1em 0px;
+    color : #414141;
+    text-align: left;
    
 }
-#contact  input:focus,#contact  textarea:focus {
+#section4 #ctncontact #contact{
+
+    width:40%;
+    margin-right:10%;
+    float: left;
+}
+
+#section4 .explainctncontact{
+    color: #414141;
+    margin-top:  3em;
+    text-align: justify;
+    margin-bottom: 4em;
+}
+
+#section4 #contactcoordonee{
+    width: 50%;
+    float: left;
+    text-align: left;
+ }
+ 
+#section4 #ctnblockcontactmoi figure {
+ width:25%;
+    float: left;
+    margin-top: 3em;
+}
+#section4 #ctnblockcontactmoi figure #cartephotoprofil {
+    max-width: 100%;
+}
+#section4 #contactcoordonee h2,#section4 #contactcoordonee p{
+    color:#414141;
+}
+
+#section4 #contact textarea{
+    width:100%;
+    float:left;
+    border:1px solid #414141;
+    resize: none;
+    height:100px;
+    -webkit-appearance: none;
+      font-family: 'Open Sans', sans-serif;
+   
+}
+
+#section4 #contact .inputtextarea {
+    margin-top: 5em;
+    display: block;
+  
+}
+
+#section4 #contact #labelmessage {
+    display: block;
+    font-size: 1.1em;
+    font-family: 'Open Sans', sans-serif;
+    color: #414141;
+    top: 0;
+    position: relative;
+    left: 0;
+    text-align: left;
+}
+
+#section4 #submitcontact{
+    border:none;
+    background:#1abc9c;
+    margin-top: 2em;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    height: 36px;
+    line-height: 36px;
+    color: #ffffff;
+    font-size: 28px;
+    -webkit-border-radius: 5px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 5px;
+    -moz-background-clip: padding;
+    border-radius: 5px;
+    background-clip: padding-box;
+    font-size: 1em;
+    padding: .5em 1.5em;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    zoom: 1;
+    -webkit-backface-visibility: hidden;
+    position: relative;
+    width: 100px;
+    font-size: 1.3em;
+    float:right;
+}
+.input {
+   position: relative;
+    z-index: 1;
+    display: block;
+    vertical-align: top;
+}
+
+.input__field {
+	position: relative;
+	display: block;
+	padding:1em;
+	width: 90%;
+	border: none;
+	border-radius: 0;
+	background: #f0f0f0;
+	color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-size:1em;
+	-webkit-appearance: none; /* for box shadows to show on iOS */
+}
+
+.input__field:focus {
 	outline: none;
 }
-#contact  label::before {
-    top: 0;
-}
- 
-#contact  label::after {
-    bottom: 0;
-}
-#contact  label::before,
-#contact  label::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    z-index: -1;
-    width: 100%;
-    height: 4px;
-    background: #16a085;
-    transition: transform 0.3s;
-    -webkit-transition: -webkit-transform 0.3s;
-	
-}
-#contact label span{
-    transition: transform 0.3s;
-    -webkit-transition: -webkit-transform 0.3s;
-    position: relative;
-    display: block;
-    padding: 1.6em 0;
-    width: 100%;
-}
-span#input-4-content{padding: 3.1em 0 !important;}
 
-#contact label{
-	font-family: 'Open Sans', sans-serif;
-	font-weight:800;
-	font-size:1.6em;
-	position:absolute;
-	color: #16a085;
-	width:100%;
-	text-align: left;
-    pointer-events: none;
-	 transition: transform 0.3s;
+.input__label {
+     font-family: 'Open Sans', sans-serif;
+	color: #414141;
+	font-size: 1.1em;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -700,22 +718,107 @@ span#input-4-content{padding: 3.1em 0 !important;}
 	-ms-user-select: none;
 	user-select: none;
 }
-.input__field--haruki:focus + .input__label--haruki .input__label-content--haruki,
-.input--filled .input__label-content--haruki {
-	-webkit-transform: translate(0, -90%);
-	transform: translate(0, -90%);
+
+.input__label-content {
+    position: relative;
+    display: block;
+    padding: 1.6em 0;
+    width: 100%;
 }
 
-.input__field--haruki:focus + .input__label--haruki::before,
-.input--filled .input__label--haruki::before {
-	-webkit-transform: translate(0, -0.5em);
-	transform: translate(0, -0.5em);
+.input--jiro {
+	margin-top: 3em;
 }
 
-.input__field--haruki:focus + .input__label--haruki::after,
-.input--filled .input__label--haruki::after {
-	-webkit-transform: translate(0, 0.5em);
-	transform: translate(0, 0.5em);
+.input__field--jiro {
+
+	background: transparent;
+	color: #fff;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.input__label--jiro {
+	position: absolute;
+	left: 0;
+        top:0;
+	width: 100%;
+	height: 100%;
+	text-align: left;
+	pointer-events: none;
+        color:#414141;
+}
+ 
+.input__label-content--jiro {
+	-webkit-transition: -webkit-transform 0.3s 0.3s;
+	transition: transform 0.3s 0.3s;
+}
+
+.input__label--jiro::before,
+.input__label--jiro::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+	
+.input__label--jiro::before {
+	border-top: 1px solid #414141;
+	-webkit-transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
+	transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+
+.input__label--jiro::after {
+	z-index: -1;
+	background: #1abc9c;
+	-webkit-transform: scale3d(1, 0, 1);
+	transform: scale3d(1, 0, 1);
+	-webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+}
+
+.input__field--jiro:focus,
+.input--filled .input__field--jiro {
+	opacity: 1;
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+
+.input__field--jiro:focus + .input__label--jiro .input__label-content--jiro,
+.input--filled .input__label-content--jiro {
+	-webkit-transform: translate3d(0, -80%, 0);
+	transform: translate3d(0, -80%, 0);
+	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.input__field--jiro:focus + .input__label--jiro::before,
+.input--filled .input__label--jiro::before {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.input__field--jiro:focus + .input__label--jiro::before,
+.input--filled .input__label--jiro::before {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.input__field--jiro:focus + .input__label--jiro::after,
+.input--filled .input__label--jiro::after {
+	-webkit-transform: scale3d(1, 1, 1);
+	transform: scale3d(1, 1, 1);
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 }
 
 /****************************** ETAPES ******************************/ 
@@ -770,7 +873,7 @@ body.etapes{
     border: 1px solid #e74c3c;
 }
 .etapes p {
-    font-size:1.3em;
+    font-size:1.1em;
     color:#4b4b4b;
 }
 .etapes h2 {
@@ -1041,7 +1144,7 @@ body.services{
     color:#4b4b4b;
 }
 #lesservices p {
-    font-size:1.3em;
+    font-size:1.1em;
     color:#4b4b4b;
 }
 #lesservices h2 {
