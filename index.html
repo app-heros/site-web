@@ -25,18 +25,23 @@
                     <h2>PRENEZ UNE LONGUEUR D'AVANCE</h2>
 		    <div class="paragraphs">
 			<div class='paragraph'>
-			    <h2>Est ce un oiseau?<strong>Est ce un avion?</strong></h2>
+			    <h2><strong>Pourquoi App-heros?</strong>Mais parce qu'on a soif!</h2>
 			    <p>
-				<span>Avec App heros votre site sera le héro de votre communication.</span>
-				App heros vous propose des solutions sur mesure et clés en main pour vous propulser sur le net. </br>
-				Vous souhaitez un site super-visible? super-rapide? super-efficace? App heros vous proposera le produit qui répondra à l'enssemble de vos exigences.
+				On a soif d'efficacité, de perfection, de partage et de satisfaction.
+				A app-heros ce que l'on cherche avec nos clients c'est de l'échange et du partage. La reussite passe par là: l'écoute des besoins et l'explication des enjeux techniques. Et notre but est de former une équipe avec nos client pour avancer enssembles et aboutir à un résultat satisfaissant.<br/><br/>
+				Nous essayerons enssemble, d'atteidre avec perfection le but que vous nous fixerai, parce qu'un client app-heros est un client satisfait.
+				C'est avec App heros que votre site sera le héro de votre communication. 
 			    </p>
 			</div>
 			<div class='paragraph title'>
 			    <h2>
-				<strong>Est ce un oiseau?</strong>
-				<strong>Est ce un avion?</strong>
+				<span>Est ce un oiseau? <strong>Est ce un avion?</strong></span>
 			    </h2>
+			    <p>
+				Nous vous proposons des solutions sur mesure et clés en main pour vous propulser sur le net.  <br/>
+				Vous souhaitez un site super-visible? super-rapide? super-efficace? C'est nous votre site répondra à l'enssemble de vos exigences.
+			    </p>
+			    
 			</div>
 			<div class='paragraph links'>
 				    <div class="link ">
@@ -160,45 +165,38 @@
                                
             <div id='ctncontact'>  
                 <h2>Envoyer un mail</h2>
-                
-                
                 <form id='contact' method='POST' action=''>
-                    <p id='explainctncontact'>Plus que quelques clics pour prendre contact avec moi!<br/>
-                    N’hésitez pas à me laisser vos impressions, me demander plus
-                    d’informations ou à aller boire un café!</p>
-                    <span class="input input--jiro">
-                        <input class="input__field input__field--jiro" type="text" id="input-10" />
-                        <label class="input__label input__label--jiro" for="input-10">
-                                <span class="input__label-content input__label-content--jiro">Nom : *</span>
+                    <span class="ctnInput">
+                        <input class="input__field input__field--haruki" type="text" id="input-1" name='nom'/>
+                        <label class="input__label input__label--haruki" for="input-1">
+                            <span id='input-1-content' class="input__label-content input__label-content--haruki" >Nom : (Requis)</span>
                         </label>
                     </span>
-                    <span class="input input--jiro">
-                        <input class="input__field input__field--jiro" type="email" id="input-11" />
-                        <label class="input__label input__label--jiro" for="input-11">
-                                <span class="input__label-content input__label-content--jiro">Email : *</span>
+                    <span class="ctnInput">
+                        <input class="input__field input__field--haruki" type="text" id="input-2" name='email'/>
+                        <label class="input__label input__label--haruki" for="input-3">
+                            <span id='input-2-content' class="input__label-content input__label-content--haruki">Email : (Requis)</span>
                         </label>
                     </span>
-                    <span class="input input--jiro">
-                        <input class="input__field input__field--jiro" type="text" id="input-12" />
-                        <label class="input__label input__label--jiro" for="input-12">
-                                <span class="input__label-content input__label-content--jiro">Compagnie :</span>
-                        </label>
-                    </span>
-                     <span class="inputtextarea">
-                        <label class="" id='labelmessage' for="inp-message">Message : *</label>
-                        <textarea id='inp-message' name='message'>
 
-                        </textarea>
-                     </span>   
-                    
+                    <span class="ctnInput">
+                        <input class="input__field input__field--haruki" type="text" id="input-3" name='compagnie'/>
+                        <label class="input__label input__label--haruki" for="input-3">
+                            <span id='input-3-content'  class="input__label-content input__label-content--haruki">Compagnie :</span>
+                        </label>
+                    </span>
+                <span id='partie2-contact' class="icon-arrow-right2"></span>	
+                    <span class="ctnTexta">
+                        <textarea rows='5' class="input__field input__field--haruki" id="form-message" name="message"></textarea>
+                        <label class="input__label input__label--haruki" for="input-4">
+                            <span id='input-4-content'  class="input__label-content input__label-content--haruki">Message : (Requis)</span>
+                        </label>
+                    </span>
                <input type='submit' id='submitcontact' name='subcontact' value='FEU !'  />  
               </form>
             </div>
             <div id='contactcoordonee'>
                 <h2>Cooordonnées</h2>     
-                <p>Julien Deschampt<br/>
-                6 Avenue antoine de saint exupery<br/>
-                64110, Jurançon</p>
                 
                 <p>contact@app-heros.fr</p>
                 <p>06-67-42-73-55</p>
@@ -286,7 +284,7 @@
             $(function () {
                 $.srSmoothscroll({
                     step: 100,
-                    speed: 400,
+                    speed: 300,
                     ease: 'linear'
                 });
             });
@@ -331,3 +329,4 @@
         </script>
     </body>
 </html>
+
