@@ -306,18 +306,18 @@ h3{ font-family: 'Open Sans', sans-serif;
 }
 #section0 .paragraph{
     float: left;
-    width: 25%;
-    padding: 40px 4%;
+    width: 29%;
+    padding: 30px 2%;
     position: relative;
-    background-color: rgba(93,214,150,0.3);
-    height: 275px;
-    display: in
+    background-color: rgba(93,214,150,0.1);
+    height: 295px;
 }
 
 #section0 .paragraph h2{ 
     text-transform: uppercase;
-    border: 1px solid #ffffff;
     margin-bottom: 20px!important;
+    color: #ffffff;
+    font-size: 2em!important
 }
 
 #section0 .paragraph h2 strong{
@@ -325,7 +325,8 @@ h3{ font-family: 'Open Sans', sans-serif;
 }
 
 #section0 .paragraph p{
-    padding: 20px;
+    padding: 10px;
+    text-align: justify;
     font-family: Open Sans, sans-serif;
     font-weight: 400;
     font-size: 1em;
@@ -333,6 +334,9 @@ h3{ font-family: 'Open Sans', sans-serif;
 
 #section0 .title{
     background-color: transparent;
+    padding: 0;
+    height: 355px;
+    width: 33%;
 }
 #section0 .title h2{
     margin: 0!important;
@@ -345,16 +349,21 @@ h3{ font-family: 'Open Sans', sans-serif;
     display: block;
     width: 100%;
 }
-#section0 .title h2 strong{
+#section0 .title h2 {
     height: 50%;
     display: block;
-    line-height: 178px;
+    line-height: 94px;
+    height: 50%!important;
+    position: relative!important;
 }
-#section0 .title h2 strong:nth-child(1){
-    background-color: rgba(206,98,19,0.2);
+#section0 .title h2{
+    background-color: rgba(206,98,19,0.1);
 }
-#section0 .title h2 strong:nth-child(2){
-    background-color: rgba(166,59,162,0.2);
+#section0 .title p{
+    height: 50%;
+    color: #000000;
+    padding: 40px;
+    background-color: rgba(166,59,162,0.1);
 }
 .enter_bottom{
     width: 100%;
@@ -1128,39 +1137,39 @@ font-family: 'Dosis';
    line-height: 175px;   
    text-align: center;
    width: 33.33%;
-   background-color: rgba(234,255,0,0.2);  
+   background-color: rgba(234,255,0,0.1);  
    transition: .3s ease;
 }
 .links .link:nth-child(1){    
-   background-color: rgba(0,168,255,0.3); 
+   background-color: rgba(0,168,255,0.1); 
 }
 .links .link:nth-child(1):hover{    
    background-color: rgba(0,168,255,0.7); 
    cursor:hover;
 }
 .links .link:nth-child(2){    
-   background-color: rgba(252,59,105,0.2); 
+   background-color: rgba(252,59,105,0.1); 
 }
 .links .link:nth-child(2):hover{    
   background-color: rgba(252,59,105,0.7); 
    cursor:hover;
 }
 .links .link:nth-child(3){
-   background-color: rgba(72,197,90,0.2);     
+   background-color: rgba(72,197,90,0.1);     
 }
 .links .link:nth-child(3):hover{    
   background-color: rgba(72,197,90,0.7);
    cursor:hover;
 }
 .links .link:nth-child(4){
-   background-color: rgba(249,175,45,0.25);     
+   background-color: rgba(249,175,45,0.1);     
 }
 .links .link:nth-child(4):hover{    
   background-color: rgba(249,175,45,0.7);   
    cursor:hover;
 }
 .links .link:nth-child(5){
-   background-color: rgba(79,208,197,0.5);     
+   background-color: rgba(79,208,197,0.1);     
 }
 .links .link:nth-child(5):hover{    
    background-color: rgba(79,208,197,0.7); 
