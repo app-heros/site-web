@@ -160,38 +160,45 @@
                                
             <div id='ctncontact'>  
                 <h2>Envoyer un mail</h2>
+                
+                
                 <form id='contact' method='POST' action=''>
-                    <span class="ctnInput">
-                        <input class="input__field input__field--haruki" type="text" id="input-1" name='nom'/>
-                        <label class="input__label input__label--haruki" for="input-1">
-                            <span id='input-1-content' class="input__label-content input__label-content--haruki" >Nom : (Requis)</span>
+                    <p id='explainctncontact'>Plus que quelques clics pour prendre contact avec moi!<br/>
+                    N’hésitez pas à me laisser vos impressions, me demander plus
+                    d’informations ou à aller boire un café!</p>
+                    <span class="input input--jiro">
+                        <input class="input__field input__field--jiro" type="text" id="input-10" />
+                        <label class="input__label input__label--jiro" for="input-10">
+                                <span class="input__label-content input__label-content--jiro">Nom : *</span>
                         </label>
                     </span>
-                    <span class="ctnInput">
-                        <input class="input__field input__field--haruki" type="text" id="input-2" name='email'/>
-                        <label class="input__label input__label--haruki" for="input-3">
-                            <span id='input-2-content' class="input__label-content input__label-content--haruki">Email : (Requis)</span>
+                    <span class="input input--jiro">
+                        <input class="input__field input__field--jiro" type="email" id="input-11" />
+                        <label class="input__label input__label--jiro" for="input-11">
+                                <span class="input__label-content input__label-content--jiro">Email : *</span>
                         </label>
                     </span>
+                    <span class="input input--jiro">
+                        <input class="input__field input__field--jiro" type="text" id="input-12" />
+                        <label class="input__label input__label--jiro" for="input-12">
+                                <span class="input__label-content input__label-content--jiro">Compagnie :</span>
+                        </label>
+                    </span>
+                     <span class="inputtextarea">
+                        <label class="" id='labelmessage' for="inp-message">Message : *</label>
+                        <textarea id='inp-message' name='message'>
 
-                    <span class="ctnInput">
-                        <input class="input__field input__field--haruki" type="text" id="input-3" name='compagnie'/>
-                        <label class="input__label input__label--haruki" for="input-3">
-                            <span id='input-3-content'  class="input__label-content input__label-content--haruki">Compagnie :</span>
-                        </label>
-                    </span>
-                <span id='partie2-contact' class="icon-arrow-right2"></span>	
-                    <span class="ctnTexta">
-                        <textarea rows='5' class="input__field input__field--haruki" id="form-message" name="message"></textarea>
-                        <label class="input__label input__label--haruki" for="input-4">
-                            <span id='input-4-content'  class="input__label-content input__label-content--haruki">Message : (Requis)</span>
-                        </label>
-                    </span>
+                        </textarea>
+                     </span>   
+                    
                <input type='submit' id='submitcontact' name='subcontact' value='FEU !'  />  
               </form>
             </div>
             <div id='contactcoordonee'>
                 <h2>Cooordonnées</h2>     
+                <p>Julien Deschampt<br/>
+                6 Avenue antoine de saint exupery<br/>
+                64110, Jurançon</p>
                 
                 <p>contact@app-heros.fr</p>
                 <p>06-67-42-73-55</p>
@@ -279,7 +286,7 @@
             $(function () {
                 $.srSmoothscroll({
                     step: 100,
-                    speed: 300,
+                    speed: 400,
                     ease: 'linear'
                 });
             });
