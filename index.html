@@ -22,7 +22,7 @@
             <div class="section" id="section0">
                 <h1>APP-HEROS</h1>
                 <!-- <div id='ctn_logo'><img id='logo' src='img/app-heros-logo.jpg' /></div> -->
-                <h2>PRENEZ UNE LONGUEUR D'AVANCE</h2>
+               
                 <div class="paragraphs">
                     <div class='paragraph'>
                         <h2><strong>Pourquoi App-heros?</strong>Mais parce qu'on a soif!</h2>
@@ -63,7 +63,7 @@
                 </div>
             </div>
             <div class="enter_bottom"> 
-                <button id="ghost-btn">REDECOUVREZ LE WEB</button>
+                <h2>App-heros boulverse les idées reçues et s'engage à vos côtés : soyez prêts.</h2>
             </div>
             
             <div class="section" id="section1">
@@ -84,17 +84,67 @@
                 </div>  
                 </div>
             </div>
-			
-            <div class="section" id="section1-2">
-                    <h2>App-heros boulverse les idées reçues et s'engage à vos côtés : soyez prêts.</h2>
-             </div>
-
+           
             <div class="section" id="section2">
-              				
+               
             </div>
-            
             <div class="section" id="section3">	
-                    
+                
+                <div id="da-slider" class="da-slider">
+                    <div class="da-slide">
+                        <h2>Site Ecommerce</h2>
+                        <p>Avec plus de 600 millions de transactions en 2013, 
+                        pour un marché de 51,1 Milliards d'euros, le e-commerce
+                        est devenu un acteur incontournable pour les entreprises qui souhaitent 
+                        vendre leurs produits. 
+                        <br/> <br/>
+                       
+                        Que vous souhaitiez étendre et développer votre entreprise sur internet,
+                        ou que vous ayez une idée de site de ventes en ligne, nous étudierons ensemble
+                        la faisabalitié de votre projet, et nous mettrons en place la stratégie adéquate.	
+                      
+                        Pour tous les gros projets e-commerce (contenant plusieurs centaines de produits)
+                            nous mettrons en place ensemble le CMS magento afin de vous donner facilement la main sur 
+                            votre projet tout en bénéficiant de la fiabilité d'un CMS puissant et sécurisé.
+                          <br/>
+
+                            </p>
+                        <div class="da-img">
+                            <img src="img/app-heros-logo-ecommerce.png" alt="image01" />
+                        </div>
+                              
+                    </div>
+                       
+                     <div class="da-slide">
+                        <h2>Site Ecommerce</h2>
+                        <p>Avec plus de 600 millions de transactions en 2013, 
+                        pour un marché de 51,1 Milliards d'euros, le e-commerce
+                        est devenu un acteur incontournable pour les entreprises qui souhaitent 
+                        vendre leurs produits. 
+                        <br/> <br/>
+                       
+                        Que vous souhaitiez étendre et développer votre entreprise sur internet,
+                        ou que vous ayez une idée de site de ventes en ligne, nous étudierons ensemble
+                        la faisabalitié de votre projet, et nous mettrons en place la stratégie adéquate.	
+                      
+                        Pour tous les gros projets e-commerce (contenant plusieurs centaines de produits)
+                            nous mettrons en place ensemble le CMS magento afin de vous donner facilement la main sur 
+                            votre projet tout en bénéficiant de la fiabilité d'un CMS puissant et sécurisé.
+                          <br/>
+
+                            </p>
+                        <div class="da-img">
+                            <img src="img/app-heros-logo-ecommerce.png" alt="image01" />
+                        </div>
+                        
+                       
+                    </div>
+
+                    <nav class="da-arrows">
+                            <span class="da-arrows-prev"></span>
+                            <span class="da-arrows-next"></span>
+                    </nav>       
+                </div>
             </div>
             
              <div class="section" id="sectionserviceadd">	
@@ -258,6 +308,8 @@
         <script type="text/javascript" src="js/jquery-paralax.js"></script>
         <script type="text/javascript" src="js/smothScroll.js"></script>
         <script type="text/javascript" src="js/velocity.js"></script>
+        <script type="text/javascript" src="js/jquery.cslider.js"></script> 
+        <script type="text/javascript" src="js/modernizr.custom.28468.js"></script> 
         
         <script>
             function redimOne(){
@@ -267,7 +319,12 @@
                     $('#section1 #slideparalax2').css({ width : lf, height : hf,});
                     $('.moislide1 ').css({ left : (lf - $('#imgpersomoi ').width() )/ 2 })			
             }
-            $(document).ready(function() {	
+            $(document).ready(function() {
+                $('#da-slider').cslider({
+
+                        bgincrement	: 200,	
+                         
+        });
 
             $('#contact input,#contact textarea').focusout(function() {
                     if ($(this).val()  != '' ) $(this).parent().addClass('input--filled');
