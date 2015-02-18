@@ -1,3 +1,91 @@
+@-webkit-keyframes color1 {
+  0%   { background-color: rgba(93,214,150,0.1); }
+  25%   { background-color: rgba(93,214,150,0.1); }
+  50% { background-color: rgba(93,214,150,0.3); }
+  75%   { background-color: rgba(93,214,150,0.1); }
+  100% { background-color: rgba(93,214,150,0.1); }
+}
+@-moz-keyframes color1 {
+  0%   { background-color: rgba(93,214,150,0.1); }
+  25%   { background-color: rgba(93,214,150,0.1); }
+  50% { background-color: rgba(93,214,150,0.3); }
+  75%   { background-color: rgba(93,214,150,0.1); }
+  100% { background-color: rgba(93,214,150,0.1); }
+}
+@-o-keyframes color1 {
+  0%   { background-color: rgba(93,214,150,0.1); }
+  25%   { background-color: rgba(93,214,150,0.1); }
+  50% { background-color: rgba(93,214,150,0.3); }
+  75%   { background-color: rgba(93,214,150,0.1); }
+  100% { background-color: rgba(93,214,150,0.1); }
+}
+@keyframes color1 {
+  0%   { background-color: rgba(93,214,150,0.1); }
+  25%   { background-color: rgba(93,214,150,0.1); }
+  50% { background-color: rgba(93,214,150,0.3); }
+  75%   { background-color: rgba(93,214,150,0.1); }
+  100% { background-color: rgba(93,214,150,0.1); }
+}
+
+@-webkit-keyframes color2 {
+  0%   { background-color: rgba(206,98,19,0.1); }
+  25%   { background-color: rgba(206,98,19,0.1); }
+  50% { background-color: rgba(206,98,19,0.3); }
+  75%   { background-color: rgba(206,98,19,0.1); }
+  100% { background-color: rgba(206,98,19,0.1); }
+}
+@-moz-keyframes color2 {
+  0%   { background-color: rgba(206,98,19,0.1); }
+  25%   { background-color: rgba(206,98,19,0.1); }
+  50% { background-color: rgba(206,98,19,0.3); }
+  75%   { background-color: rgba(206,98,19,0.1); }
+  100% { background-color: rgba(206,98,19,0.1); }
+}
+@-o-keyframes color2 {
+  0%   { background-color: rgba(206,98,19,0.1); }
+  25%   { background-color: rgba(206,98,19,0.1); }
+  50% { background-color: rgba(206,98,19,0.3); }
+  75%   { background-color: rgba(206,98,19,0.1); }
+  100% { background-color: rgba(206,98,19,0.1); }
+}
+@keyframes color2 {
+  0%   { background-color: rgba(206,98,19,0.1); }
+  25%   { background-color: rgba(206,98,19,0.1); }
+  50% { background-color: rgba(206,98,19,0.3); }
+  75%   { background-color: rgba(206,98,19,0.1); }
+  100% { background-color: rgba(206,98,19,0.1); }
+}
+
+@-webkit-keyframes color3 {
+  0%   { background-color: rgba(166,59,162,0.1); }
+  25%   { background-color: rgba(166,59,162,0.1); }
+  50% { background-color: rgba(166,59,162,0.3); }
+  75%   { background-color: rgba(166,59,162,0.1); }
+  100% { background-color: rgba(166,59,162,0.1); }
+}
+@-moz-keyframes color3 {
+  0%   { background-color: rgba(166,59,162,0.1); }
+  25%   { background-color: rgba(166,59,162,0.1); }
+  50% { background-color: rgba(166,59,162,0.3); }
+  75%   { background-color: rgba(166,59,162,0.1); }
+  100% { background-color: rgba(166,59,162,0.1); }
+}
+@-o-keyframes color3 {
+  0%   { background-color: rgba(166,59,162,0.1); }
+  25%   { background-color: rgba(166,59,162,0.1); }
+  50% { background-color: rgba(166,59,162,0.3); }
+  75%   { background-color: rgba(166,59,162,0.1); }
+  100% { background-color: rgba(166,59,162,0.1); }
+}
+@keyframes color3 {
+  0%   { background-color: rgba(166,59,162,0.1); }
+  25%   { background-color: rgba(166,59,162,0.1); }
+  50% { background-color: rgba(166,59,162,0.3); }
+  75%   { background-color: rgba(166,59,162,0.1); }
+  100% { background-color: rgba(166,59,162,0.1); }
+}
+
+
 @font-face {
     font-family: 'fontawesomeregular';
     src: url('./../font/fontawesome-webfont.eot');
@@ -248,6 +336,7 @@ h3{ font-family: 'Open Sans', sans-serif;
     background-image: url(../img/masqueapp.png);
     background-position:center bottom;
     background-size: cover;
+    opacity: 0.5
 }
 #section0 h1{
     font-weight: 400;
@@ -308,10 +397,15 @@ h3{ font-family: 'Open Sans', sans-serif;
     width: 29%;
     padding: 30px 2%;
     position: relative;
-    background-color: rgba(93,214,150,0.1);
     height: 295px;
 }
-
+#section0 .paragraph:first-child{
+    -webkit-animation: color1 8s infinite ease; /* Safari 4+ */
+    -moz-animation:    color1 8s infinite ease; /* Fx 5+ */
+    -o-animation:      color1 8s infinite ease; /* Opera 12+ */
+    animation:         color1 8s infinite ease; /* IE 10+, Fx 29+ */
+    
+}
 #section0 .paragraph h2{ 
     text-transform: uppercase;
     margin-bottom: 20px!important;
@@ -328,7 +422,8 @@ h3{ font-family: 'Open Sans', sans-serif;
     text-align: justify;
     font-family: Open Sans, sans-serif;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 0.9em;
+    line-height: 20px;
 }
 
 #section0 .title{
@@ -356,13 +451,21 @@ h3{ font-family: 'Open Sans', sans-serif;
     position: relative!important;
 }
 #section0 .title h2{
-    background-color: rgba(206,98,19,0.1);
+    
+    -webkit-animation: color2 4s infinite ease; /* Safari 4+ */
+    -moz-animation:    color2 4s infinite ease; /* Fx 5+ */
+    -o-animation:      color2 4s infinite ease; /* Opera 12+ */
+    animation:         color2 4s infinite ease; /* IE 10+, Fx 29+ */
 }
 #section0 .title p{
     height: 50%;
-    color: #000000;
+    color: #ffffff;
+    text-align: justify;
     padding: 40px;
-    background-color: rgba(166,59,162,0.1);
+    -webkit-animation: color3 6s infinite ease; /* Safari 4+ */
+    -moz-animation:    color3 6s infinite ease; /* Fx 5+ */
+    -o-animation:      color3 6s infinite ease; /* Opera 12+ */
+    animation:         color3 6s infinite ease; /* IE 10+, Fx 29+ */
 }
 .enter_bottom{
     width: 100%;
