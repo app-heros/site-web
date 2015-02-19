@@ -499,16 +499,15 @@ h3{ font-family: 'Open Sans', sans-serif;
     text-align:center;
 }
 #section1 #slideparalax2{
-    background: url(../img/app-heros-mockup-vbleu.jpg) center 0 no-repeat fixed;    
+    background:#fff;    
 }
 #section1 #titreexplainkeske{
     padding: 40px;
     font-family: 'Open Sans';
-    background: rgba(255,255,255,0.8);
-    width: 40%;
-    margin-left: 20%; 
+    width: 60%;
+    
     margin-top:10%;
-    margin-bottom :5%;
+    margin:auto;
 }
 
 #section1 #titreexplainkeske p{
@@ -520,9 +519,8 @@ h3{ font-family: 'Open Sans', sans-serif;
     padding: 40px;
     color:#414141;
     font-family: 'Open Sans';
-    background: rgba(255,255,255,0.8);
-    width: 40%;
-    margin-left: 20%;
+    width: 60%;
+    margin:auto;
 }
 #section1 #exlainkeske p
 {
@@ -548,15 +546,9 @@ h3{ font-family: 'Open Sans', sans-serif;
     color:#4b4b4b;
 }
 #section3{
-   background :#3498db;
-    padding-bottom:50px;
-}
-
-#section3 .blocsite{
-    width:20%;
+  // background :#3498db;
     
 }
-
 
 #sectionserviceadd{
     margin:auto;
@@ -604,11 +596,12 @@ h3{ font-family: 'Open Sans', sans-serif;
 }
 
 #section4  #ctnphotocontact{
-     background: url(../img/app-heros-rencontre-cafe.jpg) center 0 no-repeat;
-     height:400px;
-     background-position: 50% 60%;
-    
+    background: url(../img/app-heros-rencontre-cafe.jpg) center 0 no-repeat fixed;    
+    height:400px;  
+    background-size: cover;
 }
+
+ 
 #section4 #ctnphotocontact h2{
     font-size:3em;
     font-weight:600;
@@ -1463,11 +1456,11 @@ font-family: 'Dosis';
 .da-slider{
 	width: 100%;
 	min-width: 520px;
-	height: 400px;
+	height: 600px;
 	position: relative;
-	margin: 30px auto;
+	margin: auto;
 	overflow: hidden;
-	//background: transparent url(../img/134H.jpg) repeat 0% 0%;
+	background: transparent url(../img/low-poly-texture-2.png) repeat 0% 0%;
 	-webkit-transition: background-position 1.4s ease-in-out 0.3s;
 	-moz-transition: background-position 1.4s ease-in-out 0.3s;
 	-o-transition: background-position 1.4s ease-in-out 0.3s;
@@ -1510,7 +1503,6 @@ font-family: 'Dosis';
 	opacity: 1;
 }
 .da-slide h2{
-	color: #fff;
 	font-size: 66px;
 	width: 50%;
 	top: 60px;
@@ -1518,29 +1510,37 @@ font-family: 'Dosis';
 	white-space: nowrap;
 	z-index: 10;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
-	font-family: 'Dosis', sans-serif!important;
+	
 	font-weight: 700;
+        text-transform: uppercase;
 }
 .da-slide p{
 	width: 45%;
 	top: 155px;
-	color: #ffffff;
+	color: #4b4b4b;
 	font-size: 1.2em;
-	line-height: 26px;
-	//height: 80px;
+	//line-height: 26px;
+	background : rgba(255,255,255,0.8);
+        padding:40px;
 	overflow: hidden;
 	font-style: italic;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	font-style: italic;
 }
 .da-slide .da-img{
 	text-align: center;
 	width: 30%;
-	top: 70px;
+	top: 170px;
 	height: 256px;
 	line-height: 320px;
 	left: 110%; /*60%*/
+}
+.da-slide .da-img img{
+
+    border-radius: 50%;
+    overflow: hidden;
+    height: 100%;
+
 }
 .da-slide .da-link{
 	top: 270px; /*depends on p height*/
@@ -1575,7 +1575,7 @@ font-family: 'Dosis';
 	width: 12px;
 	height: 12px;
 	border-radius: 50%;
-	background: #e4b42d;
+	background: #4b4b4b;
 	margin: 3px;
 	cursor: pointer;
 	box-shadow: 
@@ -1609,7 +1609,7 @@ font-family: 'Dosis';
 	height: 30px;
 	width: 30px;
 	border-radius: 50%;
-	background: #e4b42d;
+	background: #4b4b4b;
 	cursor: pointer;
 	z-index: 2000;
 	opacity: 0;
