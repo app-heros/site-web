@@ -114,7 +114,7 @@ body {
 
 p,a,span,label,input{ font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size:1.1em;
+    font-size:1.2em;
     color:#ffffff;
 }
 
@@ -497,6 +497,7 @@ h3{ font-family: 'Open Sans', sans-serif;
     margin: 0px !important;
     padding: 20px;
     text-align:center;
+    color : #414141;
 }
 #section1 #slideparalax2{
     background:#fff;    
@@ -505,7 +506,6 @@ h3{ font-family: 'Open Sans', sans-serif;
     padding: 40px;
     font-family: 'Open Sans';
     width: 60%;
-    
     margin-top:10%;
     margin:auto;
 }
@@ -542,39 +542,86 @@ h3{ font-family: 'Open Sans', sans-serif;
 
 #section2 {}
 
-#section3 h2{
-    color:#4b4b4b;
-}
+
 #section3{
-  // background :#3498db;
+   background :#4E9ED2;  
+   text-align: center;
+}
+#section3-2{
+   color:#414141;
+   min-height:600px; 
+   background: url(../img/think_outside.jpg) center 0 no-repeat; 
+   background-position: 50% 50%;
+   background-size:cover;
+   line-height:800px;
+}
+#section3-2 p{
+      color:#414141;
+}
+#section3-2 h2{
+      color:#4E9ED2;
+      font-weight: 500;
+      margin:0px 0px 20px 0px!important;
+
+} 
+
+#section3-2 #content3-2{
     
+    padding : 30px;
+    vertical-align:middle;
+    display:inline-block;
+    line-height:normal; 
+    text-align:left;
+    position:relative;
+    max-width: 40%;
+    left:60%;
+    
+}
+#section3-2 #content3-2 #ctntexte3-2{ 
+    background : rgba(255,255,255,0.7);
+    padding : 30px;
+     max-width: 80%;
+     margin-bottom: 40px;
+}
+
+#content3-2 #ghost-btn-etapes-acceuil{
+    width:180px;
+     margin:initial;
+     font-size:1.2em;
+} 
+#content3-2 #ghost-btn-etapes-acceuil:hover{
+    background: #4E9ED2;
+    border : 1px solid #4E9ED2;
+    color: #fff;
 }
 
 #sectionserviceadd{
     margin:auto;
     text-align:center;
-    background:#414141;
+    background:#ffffff;
     padding-bottom: 50px;
 }
+
+#sectionserviceadd p,#sectionserviceadd h2{ 
+    color : #414141;
+}
+
 #sectionserviceadd .ctntextimgadd{
     display: inline-block;
     width: 200px;
     margin-top: 50px;}
-
-#sectionserviceadd .ctntextimgadd .textaddimg{
-  font-family: 'Josefin Sans', sans-serif!important; }
 
 #sectionserviceadd .ctnaddimg{
     display:inline-block;
     width: 150px;
     height : 150px;
     line-height: 150px;
-    background :#333333;
+    background :#4E9ED2;
     margin-top:20px;
    transition:all .3s linear;}
 
 #sectionserviceadd .ctnaddimg:hover{ 
-    background :#1abc9c;
+    background :#777;
  
 }
 #sectionserviceadd .ctnaddimg img{
@@ -687,7 +734,7 @@ h3{ font-family: 'Open Sans', sans-serif;
 #section4 #ctnblockcontactmoi #profilData #name{
     display: block;
     font-size: 2.3em;
-    color: #1abc9c;
+    color: #4E9ED2;
     font-weight: 500;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -741,7 +788,7 @@ h3{ font-family: 'Open Sans', sans-serif;
 
 #section4 #submitcontact{
     border:none;
-    background:#1abc9c;
+    background:#4E9ED2;
     border-bottom: 5px solid #138C74;
     margin-top: 2em;
     font-family: 'Open Sans', sans-serif;
@@ -874,7 +921,7 @@ h3{ font-family: 'Open Sans', sans-serif;
 
 .input__label--jiro::after {
 	z-index: -1;
-	background: #1abc9c;
+	background: #4E9ED2;
 	-webkit-transform: scale3d(1, 0, 1);
 	transform: scale3d(1, 0, 1);
 	-webkit-transform-origin: 50% 0%;
@@ -977,13 +1024,13 @@ body.etapes{
     position:relative;
     line-height:80px;
     font-size:3em;
-    color:#1abc9c;
+    color:#4E9ED2;
     text-align:left;
     margin-bottom:5%;
 }
 .etapes h2 .chiffre{
     letter-spacing: 0.1em;			
-    background:#1abc9c;
+    background:#4E9ED2;
     width: 80px;
     height: 80px;
     border-radius: 50px;
@@ -1002,7 +1049,7 @@ body.etapes{
     top: 40px;
     width: 10px;
     height: 10px;
-    border: 1px solid #1abc9c;
+    border: 1px solid #4E9ED2;
     background: none repeat scroll 0% 0% #FFF;
     border-radius: 50%;
 }
@@ -1011,7 +1058,7 @@ body.etapes{
     left: -39%;
     top: 30%;
     font-size:4em;
-    color:#1abc9c;
+    color:#4E9ED2;
     font-family: 'Indie Flower';
     text-align: center;
    
@@ -1388,7 +1435,7 @@ font-family: 'Dosis';
     padding:10px 10px;
     
 }
-#ghost-btn, #ghost-btn-mail, #ghost-btn-etapes{
+#ghost-btn, #ghost-btn-mail, #ghost-btn-etapes,#ghost-btn-etapes-acceuil{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     display: block;
@@ -1422,7 +1469,7 @@ font-family: 'Dosis';
     font-size: 1.5em;
 }
 
-#ghost-btn:hover,#ghost-btn-mail:hover,#ghost-btn-etapes:hover {
+#ghost-btn:hover,#ghost-btn-mail:hover,#ghost-btn-etapes:hover,#ghost-btn-etapes-acceuil:hover {
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;
     -o-transition: 0.3s ease;
@@ -1460,7 +1507,7 @@ font-family: 'Dosis';
 	position: relative;
 	margin: auto;
 	overflow: hidden;
-	background: transparent url(../img/low-poly-texture-2.png) repeat 0% 0%;
+	//background: transparent url(../img/low-poly-texture-2.png) repeat 0% 0%;
 	-webkit-transition: background-position 1.4s ease-in-out 0.3s;
 	-moz-transition: background-position 1.4s ease-in-out 0.3s;
 	-o-transition: background-position 1.4s ease-in-out 0.3s;
@@ -1510,37 +1557,30 @@ font-family: 'Dosis';
 	white-space: nowrap;
 	z-index: 10;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
-	
 	font-weight: 700;
         text-transform: uppercase;
+        color:#ffffff;
 }
 .da-slide p{
 	width: 45%;
 	top: 155px;
-	color: #4b4b4b;
+	color: #ffffff;
 	font-size: 1.2em;
 	//line-height: 26px;
-	background : rgba(255,255,255,0.8);
-        padding:40px;
 	overflow: hidden;
-	font-style: italic;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 }
 .da-slide .da-img{
 	text-align: center;
-	width: 30%;
-	top: 170px;
-	height: 256px;
-	line-height: 320px;
-	left: 110%; /*60%*/
+	top: 40px;
+	height: 70%;
+	left: 60%; /*60%*/
 }
 .da-slide .da-img img{
-
-    border-radius: 50%;
     overflow: hidden;
     height: 100%;
-
+    left:60%;
 }
 .da-slide .da-link{
 	top: 270px; /*depends on p height*/

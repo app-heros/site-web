@@ -22,7 +22,7 @@
             <div class="section" id="section0">
                 <h1>APP-HEROS</h1>
                 <!-- <div id='ctn_logo'><img id='logo' src='img/app-heros-logo.jpg' /></div> -->
-               
+                <h2>Le web accessible à tous, simple d'utilisation et super novateur.</h2>
                 <div class="paragraphs">
                     <div class='paragraph'>
                         <h2><strong>Pourquoi App-heros?</strong>Mais parce qu'on a soif!</h2>
@@ -62,35 +62,34 @@
                     </div>
                 </div>
             </div>
-            <div class="enter_bottom"> 
-                <h2>App-heros boulverse les idées reçues et s'engage à 100% à vos côtés : soyez prêts.</h2>
-                
-            </div>
-            
-            <div class="section" id="section1">        	
-                <h2>Qu'est ce que App-heros?</h2>
-                <div id='titreexplainkeske'>
-                    <p> Vous souhaitez un site super visible, super-rapide, super-efficace? 
-                        Faites appel à un super héros.</p>
-                </div>
+               <div class="section" id="section1">        	
+                   <h2>APP HEROS?<br/>QUI?<br/>QUOI?</h2>
+               
                 <div id='exlainkeske'>
                     <p>
                       App heros est né d’un passioné des nouvelles technologies et de la 
                       commmunication qui souhaite guider ses futurs clients dans l’éxpérience du web.<br/><br/>
-                      Après une licence en programmation web, et avoir travaillé dans une
+                      Après une licence en programmation web, et avoir travaillé en 
                       agence de comunication, j’ai décidé de me mettre à mon compte pour donner
-                      ma vision du web au client : des sites dynamiques et attrayants.<br/><br/>       
+                      ma vision du web aux clients : des sites dynamiques et attrayants.<br/><br/>       
                     </p>
+                    <p>Ici on met l'accent sur vous, on vous écoute, on vous comprend et surtout on
+                    s'engage à vos cotés pour que votre projet devienne notre réussite et
+                    notre fierté.</p>
                 </div>  
-              
+               <div id='titreexplainkeske'>
+                    <p> Vous souhaitez un site super visible, super-rapide, super-efficace? 
+                        Faites appel à un super héros.</p>
+                </div>
             </div>
-           
-            <div class="section" id="section2">
-               
-            </div>
+
             <div class="section" id="section3">	
+                <h2>En pratique, on peut faire quoi?</h2>
                 <div id="da-slider" class="da-slider">
                     <div class="da-slide">
+                         <div class="da-img">
+                            <img src="img/ecommerce.jpg" alt="image01" />
+                        </div>  
                         <h2>Site Ecommerce</h2>
                         <p>Avec plus de 600 millions de transactions en 2013, 
                         pour un marché de 51,1 Milliards d'euros, le e-commerce
@@ -108,9 +107,7 @@
                         <br/>
 
                         </p>
-                        <div class="da-img">
-                            <img src="img/ecommerce.jpg" alt="image01" />
-                        </div>       
+                            
                     </div>
                     
                     <div class="da-slide">
@@ -159,6 +156,25 @@
                             <span class="da-arrows-next"></span>
                     </nav>       
                 </div>
+            </div>
+                
+            <div class="section" id="section3-2">
+               
+                <div id='content3-2'>
+                    <div id='ctntexte3-2'>
+                        <h2>DÉROULEMENT<br/>D'UN PROJET</h2>
+                        <p>Avec moi, rien n'est laissé au hasard.<br/>
+                            Vous avez un regard sur tout et à toutes les étapes de votre projet.<br/>
+                        Un projet bien préparé, aboutira dans les meilleurs 
+                        conditions et surtout les meilleur délais.</p>
+
+                    </div>
+                   
+                    <button id="ghost-btn-etapes-acceuil">ALLONS VOIR!</button>
+                  
+                </div>
+                
+                  
             </div>
             
              <div class="section" id="sectionserviceadd">	
@@ -303,47 +319,44 @@
             function redimOne(){
                     var lf = $(window).width();
                     var hf = $(window).height();
-                    $('#section0').css({ "width" : lf, "min-height" : hf-150,});
-                    $('#section1 #slideparalax2').css({ width : lf, height : hf,});
-                    $('.moislide1 ').css({ left : (lf - $('#imgpersomoi ').width() )/ 2 })			
+                    $('#section0').css({ "width" : lf, "height" : hf,});
+                    $('#section1 #slideparalax2').css({ width : lf, height : hf,});		
             }
             $(document).ready(function() {
                 $('#da-slider').cslider({
-
-                    bgincrement	: 50,	
-                         
-        });
+             
+             });
 
             $('#contact input,#contact textarea').focusout(function() {
-                    if ($(this).val()  != '' ) $(this).parent().addClass('input--filled');
-                    else $(this).parent().removeClass('input--filled');
+                if ($(this).val()  != '' ) $(this).parent().addClass('input--filled');
+                else $(this).parent().removeClass('input--filled');
             })
 
             $('#ghost-btn-mail,#contactmenu').click(function(){
-                    $('#pagecontact').addClass('active');
-                    $('body').css('overflow' , 'hidden');
-                    $('.overlay-hugeinc').removeClass('open');
-                    $('#ctnbarmenu').removeClass('close');
+                $('#pagecontact').addClass('active');
+                $('body').css('overflow' , 'hidden');
+                $('.overlay-hugeinc').removeClass('open');
+                $('#ctnbarmenu').removeClass('close');
             })
 
             $('.close-button-contact').click(function(){
-                    $('#pagecontact').removeClass('active');
-                    $('body').css('overflow' , 'auto')
+                $('#pagecontact').removeClass('active');
+                $('body').css('overflow' , 'auto')
             })
 
             $('#partie2-contact').click(function(){
-                    $('#pagecontact #part1').css({ left : '-100%'});
-                    $('#pagecontact #part2').css({ left : '0%'});
+                $('#pagecontact #part1').css({ left : '-100%'});
+                $('#pagecontact #part2').css({ left : '0%'});
             })	
 
             $('#ctnbarmenu').click(function(){
-                    if ($('#ctnbarmenu').hasClass('close')){
-                            $('.overlay-hugeinc').removeClass('open');
-                            $('#ctnbarmenu').removeClass('close');
-                    }else{
-                            $('.overlay-hugeinc').addClass('open');
-                            $('#ctnbarmenu').addClass('close');
-                    }
+                if ($('#ctnbarmenu').hasClass('close')){
+                    $('.overlay-hugeinc').removeClass('open');
+                    $('#ctnbarmenu').removeClass('close');
+                }else{
+                    $('.overlay-hugeinc').addClass('open');
+                    $('#ctnbarmenu').addClass('close');
+                }
             })
            
 
@@ -362,8 +375,8 @@
             });
             $(function () {
                 $.srSmoothscroll({
-                    step: 100,
-                    speed: 300,
+                    step: 90,
+                    speed: 350,
                     ease: 'linear'
                 });
             });
@@ -393,8 +406,6 @@
                 redimOne();  
                 $('#col3 ').css('height',$('#col1').css('height') );	
             });		
-
-            $('#slideparalax2').parallax("50%", 0.2);
 
             $('.garantiesappheros h3').click(function(){
                 $(this).velocity({ width : '100%' },1000,'linear',function(){
