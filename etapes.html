@@ -23,16 +23,17 @@
 		
         <div id="large-header" class="large-header">
 
-            <canvas id="demo-canvas"></canvas>
-            <h1><span>Les étapes de votre projet chez App-heros</span></h1>	
+          <div id='ctnlargeheader'>
+            <h1>Les étapes de votre projet chez App-heros</h1>	
 
-            <p id='explain'><span>Parce que rien ne doit être fait au hasard, 
+            <p>Parce que rien ne doit être fait au hasard, 
             voici un petit descriptif du déroulement de votre projet chez moi.
-            Vous intervenez à tout moment, vous avez un regard sur tout.<br/>
-            Prêts?</span></p>
+            Vous intervenez à tout moment, vous avez un regard sur tout.<br/><br/>
+            Prêts?</p>
 
-            <div id='ctngbe'><button id="ghost-btn-etapes">YES SIR!</button></div>
-            <div id='ctnlogoah'></div>
+       
+          </div>
+            <button id="ghost-btn-etapes">YES SIR!</button>
         </div>
 		
         <div id='ctnlesetapes'>
@@ -165,15 +166,15 @@
 		<script>
 			window.sr = new scrollReveal();
 			function redimOne(){
-				var lf = $(window).width();
-				var hf = $(window).height();
-				$('#large-header').css({ width : lf, height : hf,});
-				$('.tiltview img').css({ width : hf / 2});
-				$('.tiltview').css({ left : (lf - ($('#repere').width() ))/2 });	
-						
-				
-				$('.tiltviewDev').css({ left : (lf - (lf - $('#repere').width() )) });	
-				$('.tiltviewDev img').css({ width : hf / 1.4});	
+                            var lf = $(window).width();
+                            var hf = $(window).height();
+                            $('#large-header').css({ width : lf, height : hf,'line-height' : (hf-200)+'px'});
+                            $('.tiltview img').css({ width : hf / 2});
+                            $('.tiltview').css({ left : (lf - ($('#repere').width() ))/2 });	
+
+
+                            $('.tiltviewDev').css({ left : (lf - (lf - $('#repere').width() )) });	
+                            $('.tiltviewDev img').css({ width : hf / 1.4});	
 			
 			}
 			$(document).ready(function() {
